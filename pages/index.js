@@ -40,7 +40,7 @@ const Index = () => {
         <Testimonial />
         {/* End testimonial Section */}
         {/* Contact Section */}
-        <Contact />
+        {/* <Contact /> */}
         {/* End Contact Section */}
         {/* Effect */}
         <div className="right-effects" />

@@ -3,39 +3,45 @@ import SectionTitle from "./SectionTitle";
 const portfolioData = [
   {
     id: 1,
-    title: "Agency Landing page",
+    title: "Vepaar Store",
     subtitle: "Web/WordPress",
-    image: "assets/img/project-1.jpg",
+    image: "assets/img/vepaar-store.png",
+    link: "https://play.google.com/store/apps/details?id=com.whatshash",
   },
   {
     id: 2,
-    title: "Agency Landing page",
-    subtitle: "Web/WordPress",
-    image: "assets/img/project-2.jpg",
+    title: "Abu Dhabi Pass",
+    subtitle: "Flutter",
+    image: "assets/img/abu-dabhi-pass-app.png",
+    link: "https://play.google.com/store/apps/details?id=com.theabudhabipass.officialapp",
   },
   {
     id: 3,
-    title: "Agency Landing page",
+    title: "Fotofizz",
     subtitle: "Web/WordPress",
-    image: "assets/img/project-3.jpg",
+    image: "assets/img/fotofizz-app.png",
+    link: "https://play.google.com/store/apps/details?id=com.fotofizz",
   },
   {
     id: 4,
-    title: "Agency Landing page",
+    title: "CRM",
     subtitle: "Web/WordPress",
-    image: "assets/img/project-4.jpg",
+    image: "assets/img/vepaar-crm.png",
+    link: "https://play.google.com/store/apps/details?id=com.vepaar.crm",
   },
   {
     id: 5,
-    title: "Agency Landing page",
+    title: "Voliz",
     subtitle: "Web/WordPress",
-    image: "assets/img/project-5.jpg",
+    image: "assets/img/voliz-app.png",
+    link: "https://play.google.com/store/apps/details?id=com.voliz",
   },
   {
     id: 6,
-    title: "Agency Landing page",
+    title: "Liquify",
     subtitle: "Web/WordPress",
-    image: "assets/img/project-6.jpg",
+    image: "assets/img/liquify-app.png",
+    link: "https://play.google.com/store/apps/details?id=com.liquify",
   },
 ];
 
@@ -43,13 +49,13 @@ const Portfolio = () => {
   return (
     <section id="work" className="section work-section bg-gray">
       <div className="container">
-        <SectionTitle heading={"Latest Projects"} subHeading={"Portfolio"} />
+        <SectionTitle heading={"Apps Powered By Us"} subHeading={"So Much!"} />
         <div className="row g-4 lightbox-gallery">
           {portfolioData.map((portfolio) => (
             <div className="col-sm-6 col-lg-4" key={portfolio.id}>
               <div className="portfolio-box">
                 <div className="portfolio-img">
-                  <a href={portfolio.image} className="gallery-link">
+                  <a href={portfolio.link} className="gallery-link">
                     <img src={portfolio.image} alt="image" />
                   </a>
                 </div>

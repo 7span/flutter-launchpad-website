@@ -35,24 +35,24 @@ const Header = () => {
                 </li>
                 <li>
                   <a className="nav-link" href="#services">
-                    <span>Services</span>
+                    <span>Features</span>
                   </a>
                 </li>
                 <li>
                   <a className="nav-link" href="#skill">
-                    <span>Skills</span>
+                    <span>Team</span>
                   </a>
                 </li>
                 <li>
                   <a className="nav-link" href="#work">
-                    <span>Portfolio</span>
+                    <span>Showcase</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a className="nav-link" href="#contactus">
                     <span>Contact</span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </Accordion.Collapse>
           </Accordion>
@@ -60,7 +60,7 @@ const Header = () => {
           {/* Top Menu */}
           <div className="ms-auto d-none d-lg-block">
             <a className="px-btn px-btn-theme2" href="#contactus">
-              Contact Now
+              Documentation
             </a>
           </div>
           {/* / */}

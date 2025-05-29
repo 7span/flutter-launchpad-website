@@ -1,110 +1,92 @@
 import SectionTitle from "./SectionTitle";
 
-const skillsData = [
-  { id: 1, name: "HTML", icon: "fab fa-html5" },
-  { id: 2, name: "CSS", icon: "fab fa-css3" },
-  { id: 3, name: "React JS", icon: "fab fa-react" },
-  { id: 4, name: "Angular", icon: "fab fa-angular" },
-  { id: 5, name: "iOs App", icon: "fab fa-apple" },
-  { id: 6, name: "App Dev", icon: "fab fa-android" },
-];
-const experiencesData = [
+const skillData = [
   {
     id: 1,
-    date: "Jan 2021 - Present",
-    designation: "Creative Director",
-    company: "pxdraft Ltd, UK",
+    avatar: "assets/img/pratik_square.jpeg",
+    name: "Pratik Butani",
+    designation: "Creator",
+    link: "https://www.linkedin.com/in/pratikbutani/",
   },
   {
     id: 2,
-    date: "Jan 2021 - Present",
-    designation: "Creative Director",
-    company: "pxdraft Ltd, UK",
+    avatar: "assets/img/cavin_square.png",
+    name: "Cavin Macwan",
+    designation: "Creator",
+    link: "https://www.linkedin.com/in/cavin-macwan/",
   },
   {
     id: 3,
-    date: "Jan 2021 - Present",
-    designation: "Creative Director",
-    company: "pxdraft Ltd, UK",
+    avatar: "assets/img/urvashi_square.jpeg",
+    name: "Urvashi Kharecha",
+    designation: "Config Captain",
+    link: "https://www.linkedin.com/in/urvashi-kharecha/",
   },
   {
     id: 4,
-    date: "Jan 2021 - Present",
-    designation: "Creative Director",
-    company: "pxdraft Ltd, UK",
+    avatar: "assets/img/avni_square.png",
+    name: "Avni Prajapati",
+    designation: "The Doc Queen",
+    link: "https://www.linkedin.com/in/avniprajapati/",
+  },
+  {
+    id: 5,
+    avatar: "assets/img/bhavik_square.jpg",
+    name: "Bhavik Maradiya",
+    designation: "The API Whisperer",
+    link: "https://www.linkedin.com/in/bhavik-maradiya/",
+  },
+  {
+    id: 6,
+    avatar: "assets/img/tulsi_square.png",
+    name: "Tulsi Gohel",
+    designation: "Auth Angel",
+    link: "https://www.linkedin.com/in/tulsi-gohel/",
+  },
+  {
+    id: 7,
+    avatar: "assets/img/nikunj_square.png",
+    name: "Nikunj Panchal",
+    designation: "The Privacy Protector",
+    link: "https://www.linkedin.com/in/nikunj-panchal-/",
+  },
+  {
+    id: 8,
+    avatar: "assets/img/rydham_square.jpg",
+    name: "Rydham Hansliya",
+    designation: "Workflow Wizard",
+    link: "https://www.linkedin.com/in/rydham1308/",
   },
 ];
 const Skill = () => {
   return (
     <section id="skill" className="section experience-section">
       <div className="container">
-        <div className="row">
-          <div className="col-lg-6">
-            <SectionTitle
-              heading={"Skills and  Experience"}
-              subHeading={"Experience"}
-              text={
-                "I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores."
-              }
-            />
-
-            <div className="skill-box">
-              <h3>My Skills</h3>
-              <div className="row g-3">
-                {skillsData.map((skill) => (
-                  <div className="col-6 col-md-4 col-lg-6" key={skill.id}>
-                    <div className="feature-box-02">
-                      <div className="icon">
-                        <i className={skill.icon} />
-                      </div>
-                      <h6>{skill.name}</h6>
-                    </div>
-                  </div>
-                ))}
+        <SectionTitle heading={"Meet the Team"} subHeading={"Rockstars!"} />
+        <div className="row g-4">
+          {skillData.map((testimonial) => (
+            <div
+              className="col-12 col-md-6 col-lg-3"
+              onClick={() => window.open(testimonial.link, "_blank")}
+              style={{ cursor: "pointer" }}
+              key={testimonial.id}
+            >
+              <div className="feature-box-03 d-flex justify-content-center align-items-center flex-column h-20">
+                <div className="feature-img">
+                  <img src={testimonial.avatar} alt="image" />
+                </div>
+                <div className="feature-content">
+                  <h6>{testimonial.name}</h6>
+                  <span>{testimonial.designation}</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-lg-6 col-xl-5 ms-auto pt-5 pt-lg-0">
-            <div className="experience-box">
-              <h3>Experience</h3>
-              <ul>
-                {experiencesData.map((experience) => (
-                  <li key={experience.id}>
-                    <h6>{experience.date}</h6>
-                    <div className="eb-right">
-                      <h5>{experience.designation}</h5>
-                      <span>{experience.company}</span>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className="experience-user">
-              <span className="eu-1">
-                <img
-                  src="assets/img/effect-3.svg"
-                  className="svg"
-                  alt="image"
-                />
-              </span>
-              <span className="eu-2">
-                <img
-                  src="assets/img/effect-4.svg"
-                  className="svg"
-                  alt="image"
-                />
-              </span>
-              <div className="avatar">
-                <img src="assets/img/avatar.png" alt="image" />
-              </div>
-              <a className="px-btn px-btn-theme2" href="#contactus">
-                Hire me{" "}
-              </a>
-            </div>
-          </div>
+          ))}
         </div>
+        <div className="owl-dots"></div>
       </div>
     </section>
   );
 };
+
 export default Skill;

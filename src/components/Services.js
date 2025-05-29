@@ -47,7 +47,7 @@ const serviceData = [
     "id": 8,
     "name": "Notification Handling",
     "icon": "bi bi-distribute-vertical",
-    "desc": "Engage users with simple implementation and management of push notifications using OneSignal to keep them informed."
+    "desc": "Engage users with complete implementation of push notifications using OneSignal to keep them informed."
   },
   {
     "id": 9,

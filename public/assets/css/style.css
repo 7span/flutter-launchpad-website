@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
 Project:    Weasley Personal Portfolio
 Version:    1.0
-Primary use:    pxdraft
+Primary use:    7Span
 
 [Table of contents]
 
@@ -49,7 +49,7 @@ Primary use:    pxdraft
   border-radius: 30px;
 }
 .main-header .navbar-nav > li > .nav-link.active span {
-  background: #f7af24;
+  background: #32B9F6;
 }
 
 @media (max-width: 991px) {
@@ -90,7 +90,7 @@ Primary use:    pxdraft
   color: #555;
 }
 .footer .nav a:hover {
-  color: #5c64cf;
+  color: #065B9D;
 }
 .footer .nav a + a {
   margin-left: 18px;
@@ -107,8 +107,8 @@ Primary use:    pxdraft
   display: inline-block;
 }
 .px-btn.px-btn-theme {
-  background: #5c64cf;
-  border-color: #5c64cf;
+  background: #065B9D;
+  border-color: #065B9D;
   color: #fff;
 }
 .px-btn.px-btn-theme:hover {
@@ -116,7 +116,7 @@ Primary use:    pxdraft
   border-color: #18171c;
 }
 .px-btn.px-btn-theme2 {
-  background: #f7af24;
+  background: #32B9F6;
   border-color: #18171c;
   color: #18171c;
 }
@@ -127,7 +127,7 @@ Primary use:    pxdraft
 }
 
 .bg-gray {
-  background: rgba(247, 175, 36, 0.1);
+  background: rgba(200, 230, 255, 1);
 }
 
 /* @media (prefers-reduced-motion: no-preference) {
@@ -151,7 +151,7 @@ img {
 }
 
 a {
-  color: #5c64cf;
+  color: #065B9D;
   text-decoration: none;
 }
 a:hover {
@@ -172,7 +172,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #5c64cf;
+  background: #065B9D;
   z-index: 99999;
 }
 
@@ -270,9 +270,9 @@ main {
 }
 .section-heading h6 span {
   display: inline-block;
-  border: 1px solid #5c64cf;
+  border: 1px solid #065B9D;
   padding: 8px 20px;
-  color: #5c64cf;
+  color: #065B9D;
   -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
 }
@@ -382,9 +382,9 @@ main {
 }
 .home-section .home-intro h6 span {
   display: inline-block;
-  border: 1px solid #5c64cf;
+  border: 1px solid #065B9D;
   padding: 8px 20px;
-  color: #5c64cf;
+  color: #065B9D;
   -webkit-transform: rotate(-35deg);
   transform: rotate(-35deg);
 }
@@ -482,7 +482,7 @@ main {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: #f7af24;
+  background: #32B9F6;
   color: #18171c;
   font-size: 32px;
 }
@@ -525,7 +525,7 @@ main {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: #5c64cf;
+  background: #065B9D;
   color: #fff;
   font-size: 30px;
   display: -ms-flexbox;
@@ -658,7 +658,7 @@ main {
 .portfolio-box .portfolio-info a {
   width: 40px;
   height: 40px;
-  background: #5c64cf;
+  background: #065B9D;
   color: #fff;
   display: -ms-flexbox;
   display: flex;
@@ -704,7 +704,7 @@ main {
   left: 0;
   right: 0;
   margin: auto;
-  background: #f7af24;
+  background: #32B9F6;
   color: #18171c;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -782,7 +782,7 @@ main {
   display: inline-flex;
   -ms-flex-align: center;
   align-items: center;
-  background: #5c64cf;
+  background: #065B9D;
   color: #fff;
   border-radius: 50%;
   -ms-flex-pack: center;

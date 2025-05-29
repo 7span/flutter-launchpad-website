@@ -4,39 +4,39 @@ import SectionTitle from "./SectionTitle";
 const testimonialData = [
   {
     id: 1,
-    avatar: "assets/img/avatar-1.jpg",
-    name: "Jennifer Lutheran",
-    designation: "CEO",
-    company: "pxdraft",
+    avatar: "assets/img/dhruv_sqaure.jpg",
+    name: "Dhruv Chandrani",
+    designation: "Lead Software Engineer",
+    company: "7Span",
     comment:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "We've used the Flutter boilerplate in two projects. It sped up feature development, kept our codebase clean, and made releases fast and reliable",
   },
   {
     id: 2,
-    avatar: "assets/img/avatar-2.jpg",
-    name: "Jennifer Lutheran",
-    designation: "CEO",
-    company: "pxdraft",
+    avatar: "assets/img/shweta_square.jpeg",
+    name: "Shweta Butani",
+    designation: "Sr. Software Engineer",
+    company: "7Span",
     comment:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "The boilerplate made my development faster. I knew the structure, so I could focus on features. It kept code clean and helped the team work better together",
   },
   {
     id: 3,
-    avatar: "assets/img/avatar-3.jpg",
-    name: "Jennifer Lutheran",
-    designation: "CEO",
-    company: "pxdraft",
+    avatar: "assets/img/rydham_square.jpg",
+    name: "Rydham Hansaliya",
+    designation: "Software Developer",
+    company: "7Span",
     comment:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "This Flutter boilerplate comes with Widgetbook for UI testing and built-in API clients like Dio and GraphQL for accelerating scalable App development.",
   },
   {
     id: 4,
-    avatar: "assets/img/avatar-4.jpg",
-    name: "Jennifer Lutheran",
-    designation: "CEO",
-    company: "pxdraft",
+    avatar: "assets/img/avni_square.png",
+    name: "Avni Prajapati",
+    designation: "Software Engineer",
+    company: "7Span",
     comment:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Flutter starter kit saves serious time. My favourite feature is the one script generates that a FULL feature with pagination and API integration",
   },
 ];
 const Testimonial = () => {
@@ -44,8 +44,8 @@ const Testimonial = () => {
     <section className="section testimonial-section">
       <div className="container">
         <SectionTitle
-          heading={"Client's Kind Word"}
-          subHeading={"Testimonial"}
+          heading={"Loved By Developers"}
+          subHeading={"For Real!"}
         />
         <Swiper {...sliderProps.testimonial} className="lightbox-gallery">
           {testimonialData.map((testimonial) => (

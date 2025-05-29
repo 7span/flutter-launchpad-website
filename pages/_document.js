@@ -11,12 +11,17 @@ export default function Document() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="keywords" content="Boston - Portfolio Template" />
-        <meta name="description" content="Boston - Portfolio Template" />
+        <meta name="keywords" content="Flutter Launchpad" />
+        <meta name="keywords" content="Flutter Boilerplate" />
+        <meta name="keywords" content="Flutter Starter Kit" />
+        <meta
+          name="description"
+          content="Everything you need for Flutter development. Open source and ready to use boilerplate."
+        />
         {/* title */}
-        <title>Boston - Portfolio React NextJS Template</title>
+        <title>Flutter Launchpad</title>
         {/* Favicon */}
-        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
         {/* theme css */}
         <link href="assets/css/style.css" rel="stylesheet" />
       </Head>
