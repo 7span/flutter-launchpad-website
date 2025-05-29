@@ -23,7 +23,7 @@ export default function Document() {
         {/* Favicon */}
         <link rel="icon" href="favicon.svg" type="image/svg+xml" />
         {/* theme css */}
-        <link href="assets/css/style.css" rel="stylesheet" />
+        <link href="/assets/css/style.css" rel="stylesheet" />
       </Head>
       <body>
         <Main />
