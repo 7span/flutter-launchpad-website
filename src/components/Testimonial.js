@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 const testimonialData = [
   {
     id: 1,
-    avatar: "/assets/img/dhruv_sqaure.jpg",
+    avatar: "/open-source/flutter-launchpad/assets/img/dhruv_sqaure.jpg",
     name: "Dhruv Chandrani",
     designation: "Lead Software Engineer",
     company: "7Span",
@@ -13,7 +13,7 @@ const testimonialData = [
   },
   {
     id: 2,
-    avatar: "/assets/img/shweta_square.jpeg",
+    avatar: "/open-source/flutter-launchpad/assets/img/shweta_square.jpeg",
     name: "Shweta Butani",
     designation: "Sr. Software Engineer",
     company: "7Span",
@@ -22,7 +22,7 @@ const testimonialData = [
   },
   {
     id: 3,
-    avatar: "/assets/img/rydham_square.jpg",
+    avatar: "/open-source/flutter-launchpad/assets/img/rydham_square.jpg",
     name: "Rydham Hansaliya",
     designation: "Software Developer",
     company: "7Span",
@@ -31,7 +31,7 @@ const testimonialData = [
   },
   {
     id: 4,
-    avatar: "/assets/img/avni_square.png",
+    avatar: "/open-source/flutter-launchpad/assets/img/avni_square.png",
     name: "Avni Prajapati",
     designation: "Software Engineer",
     company: "7Span",

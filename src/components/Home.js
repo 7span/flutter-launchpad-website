@@ -2,10 +2,18 @@ const Home = () => {
   return (
     <section id="home" className="home-section">
       <div className="effect-1">
-        <img src="/assets/img/effect-1.svg" className="svg" alt="image" />
+        <img
+          src="/open-source/flutter-launchpad/assets/img/effect-1.svg"
+          className="svg"
+          alt="image"
+        />
       </div>
       <div className="effect-2">
-        <img src="/assets/img/effect-2.svg" className="svg" alt="image" />
+        <img
+          src="/open-source/flutter-launchpad/assets/img/effect-2.svg"
+          className="svg"
+          alt="image"
+        />
       </div>
       <div className="container">
         <div className="row min-vh-100 align-items-center justify-content-center">

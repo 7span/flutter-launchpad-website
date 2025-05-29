@@ -7,7 +7,11 @@ const Header = () => {
         <div className="container">
           {/* Brand */}
           <a className="navbar-brand" href="#">
-            <img src="/assets/img/logo-1.svg" className="svg" alt="image" />
+            <img
+              src="/open-source/flutter-launchpad/assets/img/logo-1.svg"
+              className="svg"
+              alt="image"
+            />
           </a>
           {/* / */}
           <Accordion>
