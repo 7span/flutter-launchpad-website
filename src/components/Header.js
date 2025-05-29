@@ -63,7 +63,7 @@ const Header = () => {
           {/* / */}
           {/* Top Menu */}
           <div className="ms-auto d-none d-lg-block">
-            <a className="px-btn px-btn-theme2" href="#contactus">
+            <a className="px-btn px-btn-theme2" href="https://7span.com/open-source/flutter-launchpad-docs/docs/intro">
               Documentation
             </a>
           </div>
