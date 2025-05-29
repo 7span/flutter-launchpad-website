@@ -12,7 +12,7 @@ const Home = () => {
           <div className="col-lg-6 pe-xl-5 py-5 text-center">
             <div className="home-intro one-page-nav">
               <h6>
-                <span>Hello</span>
+                <span>WIZARD-QUICK!</span>
               </h6>
               <h1
                 style={{

@@ -386,7 +386,7 @@ main {
   padding: 8px 20px;
   color: #065B9D;
   -webkit-transform: rotate(-35deg);
-  transform: rotate(-35deg);
+  transform: rotate(-20deg);
 }
 @media (max-width: 767px) {
   .home-section .home-intro h6 span {
