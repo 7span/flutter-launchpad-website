@@ -38,10 +38,10 @@ const portfolioData = [
   },
   {
     id: 6,
-    title: "Liquify",
-    subtitle: "Fintech",
-    image: "assets/img/liquify-app.png",
-    link: "https://play.google.com/store/apps/details?id=com.liquify",
+    title: "Motolith",
+    subtitle: "Ecommerce",
+    image: "assets/img/motolith-app.jpg",
+    link: "https://play.google.com/store/apps/details?id=com.motolith",
   },
 ];
 

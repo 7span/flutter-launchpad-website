@@ -2,59 +2,59 @@ import SectionTitle from "./SectionTitle";
 
 const serviceData = [
   {
-    "id": 1,
-    "name": "Multi-Module Architecture",
-    "icon": "bi bi-phone",
-    "desc": "Organize your project for better scalability and easier team collaboration with a clean, modular structure using Melos"
+    id: 1,
+    name: "Multi-Module Architecture",
+    icon: "bi bi-diagram-3",
+    desc: "Organize your project for better scalability and easier team collaboration with a clean, modular structure using Melos",
   },
   {
-    "id": 2,
-    "name": "Navigation & Routing",
-    "icon": "bi bi-laptop",
-    "desc": "Simplify in-app navigation with pre-configured routing for seamless screen transitions and user flows using Auto Route"
+    id: 2,
+    name: "Navigation & Routing",
+    icon: "bi bi-signpost-2",
+    desc: "Simplify in-app navigation with pre-configured routing for seamless screen transitions and user flows using Auto Route",
   },
   {
-    "id": 3,
-    "name": "Environment Configurations",
-    "icon": "bi bi-triangle",
-    "desc": "Easily manage different environments (dev, staging, prod) with streamlined configuration management for smooth deployments"
+    id: 3,
+    name: "Environment Configurations",
+    icon: "bi bi-gear",
+    desc: "Easily manage different environments (dev, staging, prod) with streamlined configuration management for smooth deployments",
   },
   {
-    "id": 4,
-    "name": "Design System",
-    "icon": "bi bi-columns",
-    "desc": "Built upon the principles of Atomic Design, our system provides a way for scalable and consistent UI development"
+    id: 4,
+    name: "Design System",
+    icon: "bi bi-palette",
+    desc: "Built upon the principles of Atomic Design, our system provides a way for scalable and consistent UI development",
   },
   {
-    "id": 5,
-    "name": "Code Generation",
-    "icon": "bi bi-distribute-vertical",
-    "desc": "Boost productivity and reduce repetitive code with integrated code generation using Bricks for common tasks."
+    id: 5,
+    name: "Code Generation",
+    icon: "bi bi-code-slash",
+    desc: "Boost productivity and reduce repetitive code with integrated code generation using Bricks for common tasks.",
   },
   {
-    "id": 6,
-    "name": "Extensive Documentation",
-    "icon": "bi bi-globe2",
-    "desc": "Quickly understand and utilize the starter kit with our comprehensive and well-organized documentation."
+    id: 6,
+    name: "Extensive Documentation",
+    icon: "bi bi-book",
+    desc: "Quickly understand and utilize the starter kit with our comprehensive and well-organized documentation.",
   },
   {
-    "id": 7,
-    "name": "In App Purchases",
-    "icon": "bi bi-distribute-vertical",
-    "desc": "Easily implement and manage in-app purchase functionality to effectively monetize your Flutter application."
+    id: 7,
+    name: "In App Purchases",
+    icon: "bi bi-credit-card",
+    desc: "Easily implement and manage in-app purchase functionality to effectively monetize your Flutter application.",
   },
   {
-    "id": 8,
-    "name": "Notification Handling",
-    "icon": "bi bi-distribute-vertical",
-    "desc": "Engage users with complete implementation of push notifications using OneSignal to keep them informed."
+    id: 8,
+    name: "Notification Handling",
+    icon: "bi bi-bell",
+    desc: "Engage users with complete implementation of push notifications using OneSignal to keep them informed.",
   },
   {
-    "id": 9,
-    "name": "Customised Scripts",
-    "icon": "bi bi-distribute-vertical",
-    "desc": "Automate common development tasks like building and deploying with our helpful set of customized scripts."
-  }
+    id: 9,
+    name: "Customised Scripts",
+    icon: "bi bi-terminal",
+    desc: "Automate common development tasks like building and deploying with our helpful set of customized scripts.",
+  },
 ];
 
 const Services = () => {
