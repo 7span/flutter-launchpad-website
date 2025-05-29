@@ -7,12 +7,12 @@ import Services from "@/src/components/Services";
 import Skill from "@/src/components/Skill";
 import Testimonial from "@/src/components/Testimonial";
 import ImageView from "@/src/components/popup/ImageView";
-import { boston } from "@/src/utils";
+import { flutter } from "@/src/utils";
 import { Fragment, useEffect } from "react";
 const Index = () => {
   useEffect(() => {
-    boston.scrollToActiveNav();
-    boston.imgToSvg();
+    flutter.scrollToActiveNav();
+    flutter.imgToSvg();
   }, []);
 
   return (

@@ -1,4 +1,4 @@
-export const boston = {
+export const flutter = {
   scrollToActiveNav() {
     window.addEventListener("scroll", () => {
       const sections = document.querySelectorAll("section");
