@@ -5,14 +5,14 @@ const skillData = [
     id: 1,
     avatar: "/open-source/flutter-launchpad/assets/img/pratik_square.jpeg",
     name: "Pratik Butani",
-    designation: "Creator",
+    designation: "The Starter",
     link: "https://www.linkedin.com/in/pratikbutani/",
   },
   {
     id: 2,
     avatar: "/open-source/flutter-launchpad/assets/img/cavin_square.png",
     name: "Cavin Macwan",
-    designation: "Creator",
+    designation: "The Maker",
     link: "https://www.linkedin.com/in/cavin-macwan/",
   },
   {
