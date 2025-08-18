@@ -8,7 +8,7 @@ const Header = () => {
           {/* Brand */}
           <a className="navbar-brand" href="#">
             <img
-              src="/open-source/flutter-launchpad/assets/img/logo.png"
+              src="/open-source/dashing-kit/assets/img/logo.png"
               className="svg"
               alt="image"
             />
@@ -63,7 +63,11 @@ const Header = () => {
           {/* / */}
           {/* Top Menu */}
           <div className="ms-auto d-none d-lg-block">
-            <a className="px-btn px-btn-theme2" href="https://7span.com/open-source/flutter-launchpad-docs/docs/intro" target="_blank">
+            <a
+              className="px-btn px-btn-theme2"
+              href="https://7span.com/open-source/flutter-launchpad-docs/docs/intro"
+              target="_blank"
+            >
               Documentation
             </a>
           </div>

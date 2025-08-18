@@ -21,10 +21,14 @@ export default function Document() {
         {/* title */}
         <title>Flutter Launchpad</title>
         {/* Favicon */}
-        <link rel="icon" href="/open-source/flutter-launchpad/favicon.svg" type="image/svg+xml" />
+        <link
+          rel="icon"
+          href="/open-source/dashing-kit/favicon.svg"
+          type="image/svg+xml"
+        />
         {/* theme css */}
         <link
-          href="/open-source/flutter-launchpad/assets/css/style.css"
+          href="/open-source/dashing-kit/assets/css/style.css"
           rel="stylesheet"
         />
       </Head>
