@@ -3,14 +3,14 @@ const Home = () => {
     <section id="home" className="home-section">
       <div className="effect-1">
         <img
-          src="/open-source/flutter-launchpad/assets/img/effect-1.svg"
+          src="/open-source/dashing-kit/assets/img/effect-1.svg"
           className="svg"
           alt="image"
         />
       </div>
       <div className="effect-2">
         <img
-          src="/open-source/flutter-launchpad/assets/img/effect-2.svg"
+          src="/open-source/dashing-kit/assets/img/effect-2.svg"
           className="svg"
           alt="image"
         />

@@ -183,7 +183,7 @@ const Contact = () => {
             </ul>
             <div className="text-center pt-5">
               <img
-                src="/open-source/flutter-launchpad/assets/img/contact.svg"
+                src="/open-source/dashing-kit/assets/img/contact.svg"
                 className="svg"
                 alt="image"
               />
