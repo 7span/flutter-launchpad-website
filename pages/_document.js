@@ -11,15 +11,15 @@ export default function Document() {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="keywords" content="Flutter Launchpad" />
-        <meta name="keywords" content="Flutter Boilerplate" />
+        <meta name="keywords" content="Flutter DashingKit" />
+        <meta name="keywords" content="Flutter DashingKit" />
         <meta name="keywords" content="Flutter Starter Kit" />
         <meta
           name="description"
           content="Everything you need for Flutter development. Open source and ready to use boilerplate."
         />
         {/* title */}
-        <title>Flutter Launchpad</title>
+        <title>Flutter DashingKit</title>
         {/* Favicon */}
         <link
           rel="icon"
