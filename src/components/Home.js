@@ -40,7 +40,7 @@ const Home = () => {
               <div className="btn-bar">
                 <a
                   className="px-btn px-btn-theme"
-                  href="https://github.com/7span/flutter-launchpad"
+                  href="https://github.com/7span/flutter-dashing-kit"
                   target="_blank"
                 >
                   View on GitHub
