@@ -9,7 +9,7 @@ const testimonialData = [
     designation: "Lead Software Engineer",
     company: "7Span",
     comment:
-      "We've used the Flutter boilerplate in two projects. It sped up feature development, kept our codebase clean, and made releases fast and reliable",
+      "We've used the Flutter DashingKit in two projects. It sped up feature development, kept our codebase clean, and made releases fast and reliable",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const testimonialData = [
     designation: "Software Developer",
     company: "7Span",
     comment:
-      "This Flutter boilerplate comes with Widgetbook for UI testing and built-in API clients like Dio and GraphQL for accelerating scalable App development.",
+      "This Flutter DashingKit comes with Widgetbook for UI testing and built-in API clients like Dio and GraphQL for accelerating scalable App development.",
   },
   {
     id: 4,
