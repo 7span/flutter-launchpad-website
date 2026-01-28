@@ -65,7 +65,7 @@ const Header = () => {
           <div className="ms-auto d-none d-lg-block">
             <a
               className="px-btn px-btn-theme2"
-              href="https://7span.com/open-source/flutter-launchpad-docs/docs/intro"
+              href="https://7span.com/open-source/dashing-kit-docs/docs/intro"
               target="_blank"
             >
               Documentation
